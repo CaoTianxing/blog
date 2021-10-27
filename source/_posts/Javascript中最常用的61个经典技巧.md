@@ -1,9 +1,10 @@
 ---
-title: Javascript中最常用的61个经典技巧 
-date: 2021-10-27 20:38:53 
-tags: CSS 
+title: Javascript中最常用的61个经典技巧
+tags: CSS
 categories:
-- 前端
+  - 前端
+abbrlink: d317d2a0
+date: 2021-10-27 20:38:53
 ---
 
 ### 彻底屏蔽鼠标右键

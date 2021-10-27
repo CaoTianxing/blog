@@ -1,9 +1,12 @@
 ---
 title: 如何在Vue中优雅的使用图片懒加载
-date: 2021-10-27 22:14:29
-tags: [vue, JavaScript]
+tags:
+  - vue
+  - JavaScript
 categories:
-- 前端
+  - 前端
+abbrlink: 94ab8777
+date: 2021-10-27 22:14:29
 ---
 
 
