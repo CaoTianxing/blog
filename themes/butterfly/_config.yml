@@ -256,7 +256,7 @@ comments:
   # Up to two comments system, the first will be shown as default
   # Choose: Disqus/Disqusjs/Livere/Gitalk/Valine/Waline/Utterances/Facebook Comments/Twikoo
   use:
-  # - Valine
+   - Valine
   # - Disqus
   text: true # Display the comment name next to the button
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
@@ -297,12 +297,17 @@ gitalk:
 # valine
 # https://valine.js.org
 valine:
-  appId: # leancloud application app id
-  appKey: # leancloud application app key
+  nable: true # 是否开启
+  appId: cNzxDhATKGo4XS5F0S37gvgs-gzGzoHsz # leancloud application app id
+  appKey: rlSApTTt8SrVnypmd1lDMjkP # leancloud application app key
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
-  serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
+  serverURLs: # 此配置适用于国内自定义域名用户，海外版本会自动检测（无需手动填写）
   bg: # valine background
+  lang: zh-cn
+  verify: false # 是否需要验证，验证比较反人类建议false关闭
   visitor: false
+  guest_info: nick,mail,link # 默认留言框的头部需要访问者输入的信息
+  pageSize: 10 # pagination size #默认单页的留言条数
   option:
 
 # waline - A simple comment system with backend support fork from Valine
